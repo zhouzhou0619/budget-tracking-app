@@ -4,6 +4,7 @@ import AddBudgetModal from './components/AddBudgetModal';
 import AddExpenseModal from './components/AddExpenseModal';
 import BudgetCard from './components/BudgetCard';
 import UncategorizedBudgetCard from './components/UncategorizedBudgetCard';
+import TotalBudgetCard from './components/TotalBudgetCard';
 import { useState } from 'react';
 import { useBudgets } from './contexts/BudgetsContext';
 function App() {
@@ -34,7 +35,8 @@ function App() {
                         const amount = getBudgetExpenses(budget.id).reduce((total, expense) => total + expense.amount, 0);
                         return <BudgetCard key={budget.id} name={budget.name} amount={amount} max={budget.max} onAddExpenseClick={() => openAddExpenseModal(budget.id)} />;
                     })}
-                    <UncategorizedBudgetCard />
+                    <UncategorizedBudgetCard onAddExpenseClick={openAddExpenseModal} />
+                    <TotalBudgetCard />
                 </div>
             </Container>
             <AddBudgetModal show={showAddBudgetModal} handleClose={() => setShowAddBudgetModal(false)} />
