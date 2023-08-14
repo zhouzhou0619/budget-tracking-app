@@ -1,3 +1,69 @@
+# :smiling_imp: BUDGET-TRACKING-APP: Money never disappears :moneybag:
+:imp:This application can help you calculate your daily expenses and clearly see the expenses & the percentage of your budget.
+
+## :yen: Main Functions
+:moneybag: Add Budget
+:moneybag: View Budget
+:moneybag: Delete Budget
+:moneybag: Add Expense
+:moneybag: View Expense
+:moneybag: Delete Expense
+:moneybag: View Occoputation
+:moneybag:
+
+## :euro: Feature
+:moneybag: Easy to use  
+:moneybag: Visualization of expenditure/budget as a percentage  
+:moneybag: Beginner friendly  
+:moneybag: Over Budget Risk Alert
+
+## :dollar: How to use?
+:moneybag: Click add Budget  
+:moneybag: Enter Budget Name & Maximum Spending  
+:moneybag: Click Add  
+:moneybag: The New budget will show on the screen  
+:moneybag: Click "Add Expense" on the new card created  
+:moneybag: Enter Description & Amount  
+:moneybag: Click Add  
+:moneybag: The percentage shows on the screen, if it is over budget, the bar will become to red    
+:moneybag: It can also choose categories if you add multi-budgets when you add expense  
+:moneybag: View expenses and descriptions  
+:moneybag: When view the details, you can delete the budget easily  
+:moneybag: For deleted categories, the corresponding amount is automatically categorized as "Uncategorized". 
+
+## :pound: Environment
+:moneybag: VS Code  
+:moneybag: React  
+
+
+
+
+-----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
